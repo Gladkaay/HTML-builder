@@ -5,7 +5,7 @@ fs.writeFile(path.join(__dirname, 'hello.txt'), "", function(err) {
     if(err) {
         return console.log(err);
     }
-    console.log("Вау, все комплименты мира для тебя! Напиши что-нибудь:")
+    console.log("Вау, все комплименты мира для тебя! Напиши что-нибудь:");
 });
 
 const { stdin, stdout } = process;
