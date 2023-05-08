@@ -16,3 +16,4 @@ fs.promises.readdir(path.join(__dirname, 'files'))
         fs.promises.copyFile(path.join(__dirname, 'files', file), path.join(__dirname, 'files-copy', file));
       }
   })
+  

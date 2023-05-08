@@ -2,8 +2,7 @@ const path = require('path');
 const fs = require('fs');
 
 
-fs.writeFile(
-    path.join(__dirname, 'project-dist', 'bundle.css'),
+fs.writeFile(path.join(__dirname, 'project-dist', 'bundle.css'),
     "",
     err => { 
       if (err) throw err;

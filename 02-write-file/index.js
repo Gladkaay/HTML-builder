@@ -26,3 +26,4 @@ process.on('SIGINT', () => {
   stdout.write('Пока пока!'); 
   process.exit();
 });
+
